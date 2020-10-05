@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'node:lts-buster-slim'
+      image 'jenkins/jenkins:lts'
       args '-p 8080:8080'
     }
   }
