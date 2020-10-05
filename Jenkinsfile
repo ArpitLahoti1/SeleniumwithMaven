@@ -1,11 +1,5 @@
 pipeline {
-  agent {
-    docker {
-      image 'node:jenkins/jenkins:lts'
-      args '-p 8080:8080'
-    }
-  }
-  environment {
+    environment {
     NODE_ENV = 'production'
   }
   stages {
@@ -21,17 +15,6 @@ pipeline {
         echo 'Building..'
         sh 'yarn build'
         echo 'Build Success'
-      }
-    }
-    stage('Deploy') {
-      when {
-        branch 'master'
-      }
-      steps {
-        echo 'Deploying..'
-        input message: 'Finished using the web site? (Click "Proceed" to continue)'
-        sh './jenkins/deploy.sh'
-        echo 'Deploy Success'
       }
     }
   }
