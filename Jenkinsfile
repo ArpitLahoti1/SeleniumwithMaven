@@ -16,7 +16,7 @@ agent { label 'master'
     stage('Build') {
       steps {
         echo 'Building..'
-        sh 'yarn build'
+        sh 'mvn clean test'
         echo 'Build Success'
       }
     }
