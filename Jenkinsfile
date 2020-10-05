@@ -1,4 +1,7 @@
 pipeline {
+agent { 
+      
+    }
     environment {
     NODE_ENV = 'production'
   }
