@@ -18,4 +18,3 @@ agent { label 'master'
       }
     }
   }
-}
