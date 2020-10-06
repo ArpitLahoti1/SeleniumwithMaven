@@ -12,6 +12,7 @@ Use Maven to install application dependencies
 
 mvn clean test
 
+
 ```
 
 ## Setup
@@ -20,8 +21,10 @@ Step 1 - Install Java on your computer. Download and install the Java Software D
 Step 2 - Install Eclipse IDE. Download latest version of "Eclipse IDE for Java Developers"
 Step 3 - Download the Selenium Java Client Driver.
 Step 4 - Configure Eclipse IDE with WebDriver. 
-Step 5- Add TestNg plugin
-Step 6- Install Maven 
+Step 5-  Add testNg plugin
+Step 6-  Install Maven 
+Step 7-  Create a build pipeline in Jenkins via github or local
+repository 
 
 ```
 

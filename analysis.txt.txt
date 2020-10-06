@@ -1,0 +1,75 @@
+Questions
+
+1. Given the above high-level requirements, what are some of the questions you would ask each of following team members to understand this feature better?
+
+Product owner
+UX designer
+Technical Architect
+
+Ans: -
+
+Product owner = The Product Owner Role is an essential member of any agile scrum team. As a QA I would like to ask about the clear requirement of this change and will 
+ask about the prioritized list of requirements so that I can plan my testing activities according to priorities defined in the backlog in order to achiever 100% test
+coverage.
+
+I will be kept in touch with him to make sure customer’s needs and the customer’s views of how the team is implementing a product feature and how we are going to test it.
+He works closely with the dev team to Managing and making visible the product backlog and Changing the order of items in the product backlog whenever needed.
+
+The primary goal in a Product Owner role is to represent the customer to the dev team.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+UX designer = I will ask whether the designs are based mostly on user needs, I would like to ask about task flows and scenarios so that I can start with initial phase of 
+testing while dev team is busy with developing the features.
+
+With the help of task flows and design documents, I should be able to create first draft of high level test cases and map them with the task flow to make sure I covered most
+of them so that later rework can be eliminated. you also can find early defects and provide suggestions while seeing the design of the feature which reduces later production leakage.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Technical Architect = As a QA I would like to ask about some questions regarding designing of the structure and how it can fit together when it comes to testing the system.
+There may be some integration part involved in it when it comes to designing a product solution which I should be aware of.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+2. In order to delight the user with these features, how would you want it to work?
+
+Ans: - In order to delight the users with these features , I would like to focus on entry criteria for User Acceptance Testing:
+
+1.Business Requirements must be available.
+2.Application Code should be fully developed
+3.Unit Testing, Integration Testing & System Testing should be completed
+4.No Showstoppers, High, Medium defects in System Integration Test Phase -
+Only Cosmetic error is acceptable before UAT.
+5.Regression Testing should be completed with no major defects
+6.All the reported defects should be fixed and tested before UAT
+7.Traceability matrix for all testing should be completed
+8.UAT Environment must be ready
+9.Sign off mail or communication from System Testing Team that the system is ready for UAT execution
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. Based on your response to the previous question what would you automate inthe testing of this feature?
+
+Ans: - 
+As part of automate this feature, I will be making sure below things,
+
+I will be taking care of functional and regression testing and will make sure because of this change the previous version of this product remains stable.
+
+Automate and verify that this feature only available to client administrator roles.
+Automate and verify client administrator having the ability to manage their own standard users of our system.
+Automate below features 
+Ability to add users based on the available licenses
+Ability to edit user details
+Ability to remove users
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
