@@ -4,10 +4,6 @@ pipeline {
         maven 'maven-3.6.3'
         jdk 'jdk-11'
     }
-    stages {
-       
-        }
-
         stage ('Build') {
             steps {
                 sh 'mvn -Dmaven.test.failure.ignore=true install' 
